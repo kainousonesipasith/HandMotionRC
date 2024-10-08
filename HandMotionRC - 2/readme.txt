@@ -1,16 +1,36 @@
-1.Python: ตรวจสอบให้แน่ใจว่าคุณติดตั้ง Python (แนะนำให้ใช้เวอร์ชัน 3.6 หรือสูงกว่า).
+1.Python: ກວດສອບໃຫ້ແນ່ໃຈວ່າຕິດຕັ້ງ Python.
 
-2.Virtual Environment: สร้าง virtual environment เพื่อให้แยกแพ็กเกจและการตั้งค่าจากโปรเจคอื่น ๆ:
+2.Virtual Environment: ສ້າງ virtual environment ເພື່ອໃຫ້ຍົກແພັກເກຈແລະການຕັ້ງຄ່າຈາກໂປເຈັກອື່ນໆ:
 python -m venv myenv
-myenv\Scripts\activate  # สำหรับ Windows
+myenv\Scripts\activate  # ສຳລັບ Windows
 
-3.ติดตั้งไลบรารี:
+3.ຕິດຕັ້ງໄລບາຣີ້:
 
-OpenCV: ใช้สำหรับการประมวลผลภาพ:
+- OpenCV: :
     pip install opencv-python
 
-MediaPipe: สำหรับการตรวจจับมือ:
+- MediaPipe: :
     pip install mediapipe
 
-NumPy: ใช้สำหรับการคำนวณ:
-    pip install numpy
+- NumPy: :
+        pip install numpy<2.0 
+        (ພິມໃນ command in  vs code)
+
+    - ອັບເດໂມດູນທີ່ໄດ້ຮັບຜົນກະທົບ
+        pip install --upgrade mediapipe tensorflow pybind11 ml_dtypes
+        (ພິມໃນ command in  vs code)
+
+        python -m venv myenv
+        (ພິມໃນ command in  vs code)
+
+        myenv\Scripts\activate  # ສຳລັບ Windows
+        (ພິມໃນ command in  vs code)
+
+        pip install numpy<2.0 mediapipe tensorflow
+        (ພິມໃນ command in  vs code)
+
+        pip freeze
+        (ພິມໃນ command in  vs code)
+
+
+    
