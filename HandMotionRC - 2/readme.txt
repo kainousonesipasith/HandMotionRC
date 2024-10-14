@@ -1,8 +1,14 @@
 1.Python: ກວດສອບໃຫ້ແນ່ໃຈວ່າຕິດຕັ້ງ Python.
 
 2.Virtual Environment: ສ້າງ virtual environment ເພື່ອໃຫ້ຍົກແພັກເກຈແລະການຕັ້ງຄ່າຈາກໂປເຈັກອື່ນໆ:
+
+# ສຳລັບ Windows
 python -m venv myenv
-myenv\Scripts\activate  # ສຳລັບ Windows
+myenv\Scripts\activate
+
+#ສຳລັບ Mac
+python -m venv myenv
+source myenv/bin/activate 
 
 3.ຕິດຕັ້ງໄລບາຣີ້:
 
